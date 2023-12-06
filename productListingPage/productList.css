@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.productContainer{
+    margin:4rem 2rem;
+    /* border:2px solid red; */
+    display: inline-block;
+    width:1290px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 10px;;
+}
+.itemBox{
+    width:250px;
+    height: 300px;
+    /* border:2px solid darkorange; */
+    margin:1rem 0;
+    box-shadow: 0 0 5px gray;
+ }
+.image{
+    height: 150px;
+    width:100%;
+     margin-top: 5px;
+     /* border:2px solid blueviolet; */
+}
+.itemTitle{
+    
+    height: 57px;
+    /* border:1px solid greenyellow; */
+    text-align:  center;
+    font-size: 10px;
+    /* padding:  5px; */
+    /* color:rgba(132, 130, 130,0.6); */
+    /* font-weight: 800; */
+}
+.priceBox{
+    /* width:200px;
+    height: 1000px; */
+    width: 100%;
+    /* border:2px solid darkblue; */
+    padding: 0 20px;
+    text-align:  center;
+    /* margin:15px 0; */
+}
+.itemPrice,.pricesymbol{
+    display: inline;
+    font-size:1.1rem;
+    font-weight: 700;
+    padding:0 2px;
+  /* border:2px solid purple; */
+  text-align:  center;
+  margin:0 4px;
+}
+.itemRatingBox{
+    /* border:2px solid darkred; */
+    margin:3px 0;
+}
+.itemRating{
+    background-color: #26a541;
+    color:white;
+    height: 30px;
+    width:50px;
+  display: inline-block;
+   padding-top: 5px; 
+   font-size: 1.1rem;
+   font-weight: 800;
+   margin:0 10px;
+   text-align:  center;
+}
+.itemRatingStar{
+     display: inline-block;
+     /* position: relative;
+     right: 20px;  */
+     font-size: 1.1rem;
+     font-weight: 800;
+      color:white;
+      padding:0 5px;
+}
+.itemRatingCount{
+    display: inline-block;
+    font-size: 1.2rem;
+    color:#878787;
+   font-weight: 700;
+   padding: 0 6px;
+   }
+  .ratingBox{
+    display: inline-block;
+    /* border:2px solid black; */
+    position: relative;
+    right:10px;
+   }
+.rating{
+    display: inline-block;
+    color:#878787;
+    font-weight: 500;
+    padding:0 3px;
+}
+
+.revewBox{
+    /* width:70px;
+    height; */
+    /* border:2px solid red; */
+    display: inline-block;
+    text-align:  center;
+    margin:0 20px;
+    padding:0px 10px;
+}
+.loader{
+    width:200px;
+    height: 200px;
+    /* background-color: black; */
+    border:10px solid #ddd;
+    border-radius: 50%;
+    border-top:10px solid blue;
+    position: relative;
+    left:500px;
+    top:200px;
+    /* left:50%; */
+    animation: loader 1s infinite;
+ }
+@keyframes  loader {
+    100%{
+    transform: rotate(360deg);
+    }
+}
